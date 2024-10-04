@@ -15,7 +15,7 @@ const Hero = () => {
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 0.5 }}
-                            className="pb-4 pt-8 sm:pt-16 text-4xl sm:text-5xl lg:text-8xl font-roboto font-bold tracking-tight"
+                            className="pb-4 pt-8 sm:pt-16 text-4xl sm:text-5xl lg:text-7xl font-roboto font-bold tracking-tight"
                         >
                             FRILIYANDRE
                         </motion.h1>

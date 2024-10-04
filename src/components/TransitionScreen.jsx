@@ -33,8 +33,13 @@ const TransitionScreen = ({ onTransitionEnd }) => {
           </div>
 
           {showHi && (
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold animate-fade">
-              Hello
+            <div className="absolute top-1/2 left-1/2 font-mono text-white text-3xl">
+              Loading
+              <span className="loading-dots">
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+              </span>
             </div>
           )}
         </div>
@@ -46,6 +51,28 @@ const TransitionScreen = ({ onTransitionEnd }) => {
             to {
               left: 0;
             }
+          }
+
+          @keyframes blink {
+            0%, 20% {
+              opacity: 0;
+            }
+            25%, 75% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0;
+            }
+          }
+
+          .loading-dots .dot:nth-child(1) {
+            animation: blink 1.5s infinite 0.1s;
+          }
+          .loading-dots .dot:nth-child(2) {
+            animation: blink 1.5s infinite 0.3s;
+          }
+          .loading-dots .dot:nth-child(3) {
+            animation: blink 1.5s infinite 0.5s;
           }
         `}
       </style>

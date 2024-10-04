@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.ad07e149.css",
+    "main.js": "/portofolio/static/js/main.75a56ec2.js",
+    "static/js/453.176afc93.chunk.js": "/portofolio/static/js/453.176afc93.chunk.js",
+    "static/media/project-5.jpg": "/portofolio/static/media/project-5.c5a8a8994c3f6a835c43.jpg",
+    "static/media/profPict.jpg": "/portofolio/static/media/profPict.9651ab4913a7474f1ce3.jpg",
+    "static/media/project-1.jpg": "/portofolio/static/media/project-1.bcc7e26c955c34641864.jpg",
+    "static/media/Logo.webp": "/portofolio/static/media/Logo.97a247d70498374c4099.webp",
+    "static/media/CV Frili.pdf": "/portofolio/static/media/CV Frili.68ad8c4c2e2c45c35cb4.pdf",
+    "static/media/project-2.jpg": "/portofolio/static/media/project-2.d00cbd9fb6c2a971438f.jpg",
+    "static/media/project-3.jpg": "/portofolio/static/media/project-3.0c1083513a962bd926db.jpg",
+    "index.html": "/portofolio/index.html",
+    "main.ad07e149.css.map": "/portofolio/static/css/main.ad07e149.css.map",
+    "main.75a56ec2.js.map": "/portofolio/static/js/main.75a56ec2.js.map",
+    "453.176afc93.chunk.js.map": "/portofolio/static/js/453.176afc93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad07e149.css",
+    "static/js/main.75a56ec2.js"
+  ]
+}

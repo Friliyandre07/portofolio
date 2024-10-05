@@ -16,7 +16,7 @@ const Contact = () => {
         if (inView) {
             controls.start((i) => ({
                 y: i * yValue,
-                opacity: 1,
+                opacity: 1 / Math.pow(1.5, i),
                 transition: { duration: 1, delay: i * 0.2, ease: "easeOut" },
             }));
         } else {

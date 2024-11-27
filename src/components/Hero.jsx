@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants/data";
 import profPict from "../assets/profPict.jpg";
 import { motion } from "framer-motion";
-import cvFile from "../assets/CV Frili.pdf";
+import cvFile from "../assets/CV Friliyandre Yap.pdf";
 import Marquee from "./Marquee";
 
 const Hero = () => {
